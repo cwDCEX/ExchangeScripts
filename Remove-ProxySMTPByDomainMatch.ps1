@@ -1,4 +1,4 @@
-#TEST SCRIPT BEFORE RUNNING ON PROD
+#TEST SCRIPT BEFORE RUNNING ON PRODUCTION ENVIRONMENT
 
 #Update below variables to relevant CSV file path ($CSVPath) and domain to remove from proxyaddress ($DomainToRemove)
 
