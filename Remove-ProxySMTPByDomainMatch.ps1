@@ -1,3 +1,7 @@
+#TEST SCRIPT BEFORE RUNNING ON PROD
+
+#Update below variables to relevant CSV file path ($CSVPath) and domain to remove from proxyaddress ($DomainToRemove)
+
 # Import the Exchange Management Shell module
 if (-not (Get-Module -Name ExchangeManagementShell -ErrorAction SilentlyContinue)) {
     Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
